@@ -45,7 +45,7 @@
 
 ## ~문들
 * if else
-'''python
+```python
 If 조건
     진술
 ElseIf 조건
@@ -53,37 +53,37 @@ ElseIf 조건
 Else
     진술
 EndIF
-'''
+```
 
 * Select(switch)
-'''python
+```python
 Select Expression
 Case Expression [, Expression...]
     진술
 Default
     진술
 End
-'''
+```
 
 * while
-'''python
+```python
 While Expression
     진술
 Wend
-'''
+```
 
 * Repeat
-'''python
+```python
 Repeat
     진술
 Until Expression  [or Forever]
-'''
+```
 
 * For
-'''python
+```python
 For [ Local ] IndexVariable = FirstValue To | Until LastValue [ Step StepValue ]
      Statements...
 Next
-'''
+```
 
 * (Exit == break) && continue
